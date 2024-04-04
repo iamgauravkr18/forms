@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>register here</h1>
+        <p>Plese fill the details to creat an account with uss</p>
+        <hr>
+
+        <form action="welcome.php" method="get">
+            <label for="name"><b>enter your name</b></label>
+            <input type="text" placeholder="enter your name" name="name">
+            <label for="DOB"><b>enter your DOB</b></label>
+            <input type="date" placeholder="DOB" name="DOB">
+            <label for="email"><b>Enter email</b></label>
+            <input type="email" placeholder="email" name="email">
+            <label for="passwword"><b>passwword</b></label>
+            <input type="password" placeholder="enter your password" name="password">
+            <label for="confirm"><b>Conform password</b></label>
+            <input type="password" placeholder="conform password" name="confirm">
+           
+           
+         <div>
+                <label for="gender" ><strong>Gender</strong></label>
+                <label for="male" ><strong>male</strong></label>
+                <input type="radio" id="male" name="male" value="male">
+                <label for="femal" ><strong>femal</strong></label>
+                <input type="radio" id="femal" name="femal" value="femal">
+                <label for="other" ><strong>other</strong></label>
+                <input type="radio" id="other" name="gender" value="other">
+        </div>
+
+            <button type="submit" class="registerbtn"><strong>Register</strong></button>
+            
+        </div>
+        <div class="container signin">
+                <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+        </form>
+   
+</body>
+</html>
